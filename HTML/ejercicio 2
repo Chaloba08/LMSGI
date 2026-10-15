@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Etiquetas de metainformación obligatorias -->
+    <meta name="description" content="Descripción de la página">
+    <meta name="author" content="Tu Nombre">
+    <title>Ejercicio HTML</title>
+</head>
+<body>
+
+    <!-- Título principal -->
+    <h1>Mi Página con Imágenes y Videos</h1>
+
+    <!-- Enlaces internos (marcadores) para navegar -->
+    <p>
+        <a href="#imagen">Ir a la imagen</a> | 
+        <a href="#video">Ir al video</a>
+    </p>
+
+    <p>Esta es una página de prueba para mostrar contenido incrustado.</p>
+
+    <!-- Sección de la imagen con su marcador id -->
+    <div id="imagen">
+        <h2>Imagen</h2>
+        <img src="https://picsum.photos" alt="Un paisaje de la naturaleza" width="600" height="400">
+    </div>
+
+    <!-- Sección del video con su marcador id -->
+    <div id="video">
+        <h2>Video de YouTube</h2>
+        <!-- Código iframe copiado de YouTube -->
+        <iframe width="560" height="315" src="https://youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
