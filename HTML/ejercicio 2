@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <!-- Etiquetas de metainformación obligatorias -->
+    <!-- Metainformación obligatoria -->
     <meta name="description" content="Descripción de la página">
     <meta name="author" content="Tu Nombre">
     <title>Ejercicio HTML</title>
@@ -10,27 +10,29 @@
 <body>
 
     <!-- Título principal -->
-    <h1>Mi Página con Imágenes y Videos</h1>
+    <h1>Mi Página Multimedia</h1>
 
-    <!-- Enlaces internos (marcadores) para navegar -->
-    <p>
-        <a href="#imagen">Ir a la imagen</a> | 
-        <a href="#video">Ir al video</a>
-    </p>
+    <!-- Enlaces internos (marcadores) -->
+    <p>Navegación rápida:</p>
+    <a href="#mi-imagen">Ir a la Imagen</a> | 
+    <a href="#mi-video">Ir al Video</a>
 
-    <p>Esta es una página de prueba para mostrar contenido incrustado.</p>
+    <br><br><br>
 
-    <!-- Sección de la imagen con su marcador id -->
-    <div id="imagen">
+    <!-- Marcador de la imagen -->
+    <div id="mi-imagen">
         <h2>Imagen</h2>
-        <img src="https://picsum.photos" alt="Un paisaje de la naturaleza" width="600" height="400">
+        <!-- Etiqueta img con src, alt, width y height -->
+        <img src="https://i.blogs.es/cf55cd/1366_2000/840_560.jpeg" alt="Un paisaje de naturaleza" width="600" height="400">
     </div>
 
-    <!-- Sección del video con su marcador id -->
-    <div id="video">
+    <br><br><br>
+
+    <!-- Marcador del video -->
+    <div id="mi-video">
         <h2>Video de YouTube</h2>
-        <!-- Código iframe copiado de YouTube -->
-        <iframe width="560" height="315" src="https://youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- Código iframe de YouTube obtenido en Compartir -> Insertar -->
+        <iframe width="560" height="315" src="https://youtu.be/0oUodTqfz0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
 </body>
