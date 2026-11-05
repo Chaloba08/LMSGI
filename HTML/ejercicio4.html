@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Horario del grupo</title>
+</head>
+<body>
+
+<table border="1">
+  <caption>Horario del grupo 1.º DAW</caption>
+
+  <colgroup>
+    <col style="background-color: #eeeeee;">
+    <col span="5">
+  </colgroup>
+
+  <thead>
+    <tr>
+      <th>Tramo</th>
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miércoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <!-- Tramo 1 -->
+    <tr>
+      <td>1.º (8:15 - 9:15)</td>
+      <td rowspan="2">Programación</td>
+      <td>Lengua</td>
+      <td>Inglés</td>
+      <td>Matemáticas</td>
+      <td rowspan="2">Sistemas</td>
+    </tr>
+    <!-- Tramo 2 (Lunes y Viernes ocupados por el rowspan anterior) -->
+    <tr>
+      <td>2.º (9:15 - 10:15)</td>
+      <td>Matemáticas</td>
+      <td>Lengua</td>
+      <td>Inglés</td>
+    </tr>
+    <!-- Tramo 3 -->
+    <tr>
+      <td>3.º (10:15 - 11:15)</td>
+      <td>Bases de datos</td>
+      <td>Inglés</td>
+      <td>Programación</td>
+      <td>Lengua</td>
+      <td>Matemáticas</td>
+    </tr>
+    <!-- Recreo -->
+    <tr>
+      <td>11:15 - 11:45</td>
+      <td colspan="5">RECREO</td>
+    </tr>
+    <!-- Tramo 4 -->
+    <tr>
+      <td>4.º (11:45 - 12:45)</td>
+      <td>Lengua</td>
+      <td rowspan="2">Sistemas</td>
+      <td rowspan="2">Bases de datos</td>
+      <td>Inglés</td>
+      <td>Tutoría</td>
+    </tr>
+    <!-- Tramo 5 (Martes y Miércoles ocupados por el rowspan) -->
+    <tr>
+      <td>5.º (12:45 - 13:45)</td>
+      <td>Matemáticas</td>
+      <td>Programación</td>
+      <td>Bases de datos</td>
+    </tr>
+    <!-- Tramo 6 -->
+    <tr>
+      <td>6.º (13:45 - 14:45)</td>
+      <td>Sistemas</td>
+      <td>Programación</td>
+      <td>Matemáticas</td>
+      <td>Lengua</td>
+      <td>Inglés</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td colspan="6">Los horarios pueden sufrir modificaciones a lo largo del curso.</td>
+    </tr>
+  </tfoot>
+</table>
+
+</body>
+</html>
